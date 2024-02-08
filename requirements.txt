@@ -1,0 +1,6 @@
+torch==2.0.1+cu117
+--find-links https://download.pytorch.org/whl/torch_stable.html
+numpy==1.24.1
+tqdm==4.65.0
+transformers==4.30.1
+torchinfo==1.8.0
