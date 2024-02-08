@@ -7,7 +7,7 @@ DDxT is an automatic method for autoregressive generation of differential diagno
 ![requirements](https://img.shields.io/badge/Python->3.8.0-3480eb.svg?longCache=true&style=flat&logo=python)
 
 <p align="justify">
-The code is written in <a href=https://pytorch.org>PyTorch</a>. Additionally, for tokenizing and input processing it has dependency on HuggingFace transformers library. All the required libraries are listed in requirements file. Create a conda environment and install the required libraries using the following commands. 
+The code is written in <a href=https://pytorch.org>PyTorch</a>. Additionally, for tokenizing and input processing, it has a dependency on the HuggingFace transformers library. All the required libraries are listed in the requirements file. Create a conda environment and install the required libraries using the following commands. 
 
 ```properties
 conda create -y -n ddxt
@@ -41,6 +41,25 @@ The working directory should have the following structure:
 ├── .gitignore
 ├── *.py 
 └── README.md 
+```
+
+### Paper
+
+[![Paper](https://img.shields.io/badge/paper-NeurIPS-90fc03.svg?longCache=true&style=flat)](https://arxiv.org/abs/2312.01242)
+
+The code was developed for the differential diagnosis using transformers paper. For a more detailed explanation of the proposed
+method, please go through the pdf of the [```paper```](https://arxiv.org/abs/2312.01242). If you use this work, code, or find this useful, please cite this
+paper as:
+
+[***```DDxT: Deep Generative Transformer Models for Differential Diagnosis```***](https://arxiv.org/abs/2312.01242)
+
+```bibtex
+@article{alam2023ddxt,
+  title={DDxT: Deep Generative Transformer Models for Differential Diagnosis},
+  author={Alam, Mohammad Mahmudul and Raff, Edward and Oates, Tim and Matuszek, Cynthia},
+  journal={arXiv preprint arXiv:2312.01242},
+  year={2023}
+}
 ```
 
 ### Code Segments
